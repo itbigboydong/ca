@@ -34,7 +34,7 @@ public class ServerSockets {
 		
 	}
 	private static void handle(Socket socket) throws IOException {
-     byte[] bytes = new byte[1024];	
+     byte[] bytes = new   byte[1024];	
      InputStream in = socket.getInputStream();
      while(true){
     	 //读取数据
